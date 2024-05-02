@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 function Footer() {
   return (
-    <MDBFooter  className='text-center text-light bg-dark' style={{ }}>
+    <MDBFooter  className='text-center text-light ' style={{backgroundColor:"#5D6D7E " }}>
       <section className='d-flex justify-content-center justify-content-lg-between p-4 border-bottom'>
         <div className='me-5 d-none d-lg-block'>
           <span>Get connected with us on social networks:</span>
@@ -12,22 +12,22 @@ function Footer() {
 
         <div>
           <a href='' className='me-4 text-reset'>
-            <MDBIcon color='secondary' fab icon='facebook-f' />
+            <MDBIcon color='warning' fab icon='facebook-f' />
           </a>
           <a href='' className='me-4 text-reset'>
-            <MDBIcon color='secondary' fab icon='twitter' />
+            <MDBIcon color='warning' fab icon='twitter' />
           </a>
           <a href='' className='me-4 text-reset'>
-            <MDBIcon color='secondary' fab icon='google' />
+            <MDBIcon color='warning' fab icon='google' />
           </a>
           <a href='' className='me-4 text-reset'>
-            <MDBIcon color='secondary' fab icon='instagram' />
+            <MDBIcon color='warning' fab icon='instagram' />
           </a>
           <a href='' className='me-4 text-reset'>
-            <MDBIcon color='secondary' fab icon='linkedin' />
+            <MDBIcon color='warning' fab icon='linkedin' />
           </a>
           <a href='' className='me-4 text-reset'>
-            <MDBIcon color='secondary' fab icon='github' />
+            <MDBIcon color='warning' fab icon='github' />
           </a>
         </div>
       </section>
@@ -36,7 +36,7 @@ function Footer() {
         <MDBContainer className='text-center text-md-start mt-5'>
           <MDBRow className='mt-3'>
             <MDBCol md='3' lg='4' xl='3' className='mx-auto mb-4'>
-              <h6 className='text-uppercase fw-bold mb-4'>
+              <h6 className='text-uppercase fw-bold mb-4 text-light'>
                 <MDBIcon color='secondary' icon='video' className='me-3' />
                 Project Fair
               </h6>
@@ -47,7 +47,7 @@ function Footer() {
             </MDBCol>
 
             <MDBCol md='2' lg='2' xl='2' className='mx-auto mb-4'>
-              <h6 className='text-uppercase fw-bold mb-4'>Guides</h6>
+              <h6 className='text-uppercase fw-bold mb-4 text-light'>Guides</h6>
 
               <Link to={'https://react.dev/'}
               style={{textDecoration:"none",color:"white"}}
@@ -72,7 +72,7 @@ function Footer() {
             </MDBCol>
 
             <MDBCol md='3' lg='2' xl='2' className='mx-auto mb-4'>
-              <h6 className='text-uppercase fw-bold mb-4'> links</h6>
+              <h6 className='text-uppercase fw-bold mb-4 text-light'> links</h6>
               <Link to={"/"} className='link' style={{ textDecoration: 'none',color:"white" }}>
                 <p>
                   Home 
@@ -92,20 +92,20 @@ function Footer() {
             </MDBCol>
 
             <MDBCol md='4' lg='3' xl='3' className='mx-auto mb-md-0 mb-4'>
-              <h6 className='text-uppercase fw-bold mb-4'>Contact</h6>
+              <h6 className='text-uppercase fw-bold mb-4 text-light'>Contact</h6>
               <p>
-                <MDBIcon color='secondary' icon='home' className='me-2' />
+                <MDBIcon color='' icon='home' className='me-2' />
                 New York, NY 10012, US
               </p>
               <p>
-                <MDBIcon color='secondary' icon='envelope' className='me-3' />
+                <MDBIcon color='' icon='envelope' className='me-3' />
                 info@example.com
               </p>
               <p>
-                <MDBIcon color='secondary' icon='phone' className='me-3' /> + 01 234 567 88
+                <MDBIcon color='' icon='phone' className='me-3' /> + 01 234 567 88
               </p>
               <p>
-                <MDBIcon color='secondary' icon='print' className='me-3' /> + 01 234 567 89
+                <MDBIcon color='' icon='print' className='me-3' /> + 01 234 567 89
               </p>
             </MDBCol>
           </MDBRow>
